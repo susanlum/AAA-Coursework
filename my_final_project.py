@@ -54,5 +54,4 @@ st.write(prediction)
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
-do_something()
 st.snow()
