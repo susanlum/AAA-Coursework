@@ -42,9 +42,10 @@ st.subheader('Class labels and their corresponding index number')
 iris_list = [[0,'Iris-setosa'],[1,'Iris-versicolor'],[2,'Iris-virginica']]
 # st.dataframe (iris_list, columns = ['Class_Labels', 'Iris_Type'])
 
-df = pd.DataFrame (iris_list, columns = ['Class_Labels', 'Iris_Type'])
+# df = pd.DataFrame (iris_list, columns = ['Class_Labels', 'Iris_Type'])
+# st.dataframe(df)
 
-st.dataframe(df)
+st.write(pd.Series(['setosa', 'versicolor', 'virginica']))
 
 st.image("https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Machine+Learning+R/iris-machinelearning.png")
 
