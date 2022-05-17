@@ -36,7 +36,7 @@ clf.fit(X, Y)
 prediction = clf.predict(df)
 prediction_proba = clf.predict_proba(df)
 
-# st.subheader('Class labels and their corresponding index number')
+st.subheader('Class labels and their corresponding index number')
 # st.write(['Iris-setosa', 'Iris-versicolor', 'Iris-virginica'])
 
 iris_list = [[0,'Iris-setosa'],[1,'Iris-versicolor'],[2,'Iris-virginica']]
